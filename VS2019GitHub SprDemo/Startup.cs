@@ -32,7 +32,7 @@ namespace VS2019GitHub_SprDemo
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World! Hello World!");
+                    await context.Response.WriteAsync("Hello World! Hello World! Member 2");
                 });
             });
         }
